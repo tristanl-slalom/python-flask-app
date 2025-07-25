@@ -1,0 +1,200 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0e0e0e;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+}
+
+nav {
+    width: 200px;
+    background-color: #1c1c1c;
+    padding: 20px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #333333;
+}
+
+.container {
+    margin-left: 220px;
+    padding: 20px;
+    width: calc(100% - 220px);
+}
+
+.panel {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Existing styles remain unchanged */
+
+/* New styles for login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-panel {
+    background-color: #2b2b2b;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+.login-panel h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.login-panel form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-panel label {
+    color: #cfcfcf;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.login-panel input[type="text"],
+.login-panel input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3c3c3c;
+    color: #ffffff;
+}
+
+.login-panel button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-panel button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #ff4c4c;
+    margin-top: 10px;
+}
+
+.joke-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.joke-text {
+    font-size: 1.5em;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.timestamp {
+    font-size: 0.9em;
+    color: #a0a0a0;
+    margin-top: 10px;
+}
+
+.joke-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.joke-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for banner */
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    color: #ffffff;
+}
+
+.banner-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.user-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container {
+    margin-top: 60px; /* Adjust for fixed banner */
+}
